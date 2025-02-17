@@ -1,10 +1,13 @@
 
 import { ArrowRight, Sparkles } from "lucide-react";
-import { Button } from "antd";
+import { Button, Modal } from "antd"; // Add Modal import
 import "./hero.css"
 import { Link } from "react-router-dom";
+import { useState } from 'react'; // Add useState import
 
 export const HeroSection = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
   return (
     <section  className="vid_bg section-padding min-h-[90vh] flex flex-col justify-center items-center text-center relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-[#e6f7ff] to-transparent -z-10" />
@@ -31,11 +34,36 @@ export const HeroSection = () => {
             <ArrowRight className="ml-2 h-4 w-4" />
           </Button>
           </Link>
-          <Button size="large" className="h-12">
+          <Button size="large" className="h-12" onClick={() => setIsModalOpen(true)}>
             Watch Demo
           </Button>
         </div>
       </div>
+
+      <Modal
+        title="Product Demo"
+        open={isModalOpen}
+        onCancel={() => setIsModalOpen(false)}
+        footer={null}
+        width={800}
+        centered
+      >
+        <div style={{ position: 'relative', paddingTop: '56.25%' }}>
+          <iframe
+            src="https://res.cloudinary.com/dnko3bvt0/video/upload/v1739833178/main_vid_fuwdmg.mp4"
+            style={{
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              width: '100%',
+              height: '100%',
+              border: 'none'
+            }}
+            allow="autoplay; encrypted-media"
+            allowFullScreen
+          />
+        </div>
+      </Modal>
     </section>
   );
 };
