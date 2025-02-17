@@ -9,8 +9,8 @@ const { Title, Text } = Typography;
 const plans = [
   {
     title: "Basic",
-    price: "UGX 100,000",
-    period: "per year",
+    price: "Custom",
+    period: "contact us",
     features: [
       "Each person +1, (for example....1 parent, 1student)",
       "Basic AI analytics",
