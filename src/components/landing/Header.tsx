@@ -31,7 +31,7 @@ export const Header = () => {
         {/* Logo with Icon */}
         <Link to="/" className="text-2xl font-bold text-[#1890ff] flex items-center h-full">
           <img src={Logo} alt="Logo" className="logo" /> {/* Icon added here */}
-          Schoolforce
+          schoolforce
         </Link>
 
         {/* Desktop Menu */}
