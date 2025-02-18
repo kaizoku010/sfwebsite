@@ -35,7 +35,6 @@ Learning doesn’t stop at graduation. schoolforce evolves into a lifelong platf
 <br/>
 - Students track skill development from kindergarten to career.<br/>
 - Adults access micro-courses to re-skill for a changing job market.<br/>
-- Employers partner with schools to align curricula with real-world needs.<br/>
 - AI mentors guide users through career shifts, college applications, or passion projects.              </Paragraph>
             </Col>
           </Row>
