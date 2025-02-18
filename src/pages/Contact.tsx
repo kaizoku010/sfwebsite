@@ -13,7 +13,7 @@ const Contact = () => {
         <div style={{ marginTop: "7rem" }} className="text-center mb-16">
           <Title className="text-[#1890ff] mb-4">Contact Us</Title>
           <Text style={{ fontSize: "1.25rem" }} className="text-gray-600 block max-w-2xl mx-auto">
-            Have questions about Schoolforce? We're here to help! Reach out to us using the contact
+            Have questions about schoolforce? We're here to help! Reach out to us using the contact
             information below.
           </Text>
         </div>
