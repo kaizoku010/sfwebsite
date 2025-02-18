@@ -53,7 +53,7 @@ To democratize global education by creating the world’s first AI-powered ecosy
         <Row justify="center">
           <Col>
             <Text className="text-gray-500">
-              © {new Date().getFullYear()} Schoolforce. All rights reserved.
+              © {new Date().getFullYear()} schoolforce. All rights reserved.
             </Text>
           </Col>
         </Row>
