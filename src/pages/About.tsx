@@ -35,7 +35,9 @@ Learning doesn’t stop at graduation. schoolforce evolves into a lifelong platf
 <br/>
 - Students track skill development from kindergarten to career.<br/>
 - Adults access micro-courses to re-skill for a changing job market.<br/>
-- AI mentors guide users through career shifts, college applications, or passion projects.              </Paragraph>
+- AI mentors guide users through career shifts, college applications, or passion projects.
+- See how students with similar profiles navigated their journeys—from majors to internships to full-time roles.
+            </Paragraph>
             </Col>
           </Row>
 
