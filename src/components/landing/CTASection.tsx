@@ -10,9 +10,9 @@ export const CTASection = () => {
         <h2 className="text-3xl md:text-4xl font-bold mb-6 heading-gradient">
           Ready to Transform Your School?
         </h2>
-        <p className="text-lg text-secondary-foreground mb-12 max-w-2xl mx-auto">
+        {/* <p className="text-lg text-secondary-foreground mb-12 max-w-2xl mx-auto">
           Join hundreds of schools already using our AI-powered platform to enhance their educational experience.
-        </p>
+        </p> */}
         <Link to="/features">
         <Button size="lg" className="bg-primary hover:bg-primary-dark text-white px-8">
           Get Started Today
