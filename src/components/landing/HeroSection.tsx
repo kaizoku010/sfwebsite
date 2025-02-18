@@ -25,13 +25,13 @@ export const HeroSection = () => {
         
         <p style={{fontSize:"1.1rem"}} className="text-lg md:text-xl text-white mb-12 max-w-2xl mx-auto">
 Imagine a world where every parent, teacher, and school leader has the tools to unlock the full potential of education.
-At Schoolforce, we’re turning this vision into reality by putting critical educational data and AI-powered insights directly into your hands.      </p>
+At schoolforce, we’re turning this vision into reality by putting critical educational data and AI-powered insights directly into your hands.      </p>
         
         <div className="flex flex-col sm:flex-row gap-4  items-left">
           <Link to={"/features"}>
-          <Button type="primary" size="large" className="px-8 h-12 flex items-center">
+          <Button style={{width:"100%"}} type="primary" size="large" className="px-8 h-12 flex items-center">
             Get Started
-            <ArrowRight className="ml-2 h-4 w-4" />
+            <ArrowRight className="ml-2 h-4" />
           </Button>
           </Link>
           <Button size="large" className="h-12" onClick={() => setIsModalOpen(true)}>
