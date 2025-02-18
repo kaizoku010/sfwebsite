@@ -12,7 +12,7 @@ const About = () => {
       <div className="min-h-screen bg-white pt-16">
         <div className="max-w-7xl mx-auto px-4 py-20">
           <div className="text-center mb-16">
-            <Title className="text-[#1890ff] mb-4">About Schoolforce</Title>
+            <Title className="text-[#1890ff] mb-4">About schoolforce</Title>
             <Text className="text-lg text-gray-600 block max-w-3xl mx-auto">
               Enhancing school workforce systems with AI—so you can focus on what no machine ever will: nurturing growth.
             </Text>
@@ -20,14 +20,14 @@ const About = () => {
 
           <Row gutter={[48, 48]} className="mb-20">
             <Col xs={24} md={12}>
-              <Title level={3}>Our Mission</Title>
+              <Title level={3}>Mission</Title>
               <Paragraph className="text-gray-600">
                To democratize global education by creating the world’s first AI-powered ecosystem where every student, parent, and educator—regardless of location or resources—collaborates in real time to unlock lifelong potential, 
                eliminate systemic inequities.
               </Paragraph>
             </Col>
             <Col xs={24} md={12}>
-              <Title level={3}>Our Vision</Title>
+              <Title level={3}>Vision</Title>
               <Paragraph className="text-gray-600">
        
 
