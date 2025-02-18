@@ -24,8 +24,8 @@ export const HeroSection = () => {
         </h1>
         
         <p className="text-lg md:text-xl text-white mb-12 max-w-2xl mx-auto">
-          Empower your educational institution with AI-driven insights, exam management, and automated reporting for students, teachers, and parents.
-        </p>
+Imagine a world where every parent, teacher, and school leader has the tools to unlock the full potential of education.
+At Schoolforce, we’re turning this vision into reality by putting critical educational data and AI-powered insights directly into your hands.      </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Link to={"/features"}>

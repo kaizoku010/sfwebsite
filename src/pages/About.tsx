@@ -14,8 +14,7 @@ const About = () => {
           <div className="text-center mb-16">
             <Title className="text-[#1890ff] mb-4">About Schoolforce</Title>
             <Text className="text-lg text-gray-600 block max-w-3xl mx-auto">
-              Revolutionizing education through innovative AI-powered solutions that empower schools, 
-              teachers, and students to achieve their full potential.
+              Enhancing school workforce systems with AI—so you can focus on what no machine ever will: nurturing growth.
             </Text>
           </div>
 
@@ -23,19 +22,21 @@ const About = () => {
             <Col xs={24} md={12}>
               <Title level={3}>Our Mission</Title>
               <Paragraph className="text-gray-600">
-                At Schoolforce, we believe in transforming education through technology. 
-                Our mission is to provide schools with powerful, intuitive tools that streamline 
-                administration, enhance learning outcomes, and foster better communication between 
-                all stakeholders in the educational journey.
+               To democratize global education by creating the world’s first AI-powered ecosystem where every student, parent, and educator—regardless of location or resources—collaborates in real time to unlock lifelong potential, 
+               eliminate systemic inequities.
               </Paragraph>
             </Col>
             <Col xs={24} md={12}>
               <Title level={3}>Our Vision</Title>
               <Paragraph className="text-gray-600">
-                We envision a future where every educational institution has access to 
-                cutting-edge AI technology, making education more efficient, personalized, 
-                and accessible. Our platform is designed to bridge the gap between traditional 
-                education and modern technology.
+       
+Every student, in every home and classroom, has a tailored learning path powered by AI that adapts to their strengths, gaps, and interests—while preserving the irreplaceable human connection between teachers and learners.
+
+How Schoolforce Gets You There:
+
+    AI analyzes student data to recommend resources, predict challenges, and automate administrative tasks (grading, attendance).
+
+    Offline-friendly tools and low-bandwidth solutions ensure rural or under-resourced communities aren’t left behind.
               </Paragraph>
             </Col>
           </Row>
@@ -46,9 +47,8 @@ const About = () => {
               <Card className="text-center h-full">
                 <TeamOutlined className="text-4xl text-[#1890ff] mb-4" />
                 <Title level={4}>Collaboration</Title>
-                <Text className="text-gray-600">
-                  We believe in the power of bringing together educators, students, and parents
-                  in a collaborative educational environment.
+                <Text style={{justifyContent:"left"}} className="text-gray-600">
+                 Teachers, parents, and administrators operate as a unified force, sharing data and strategies across borders to solve problems like dropout rates, literacy gaps, or student well-being.
                 </Text>
               </Card>
             </Col>
