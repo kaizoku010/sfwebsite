@@ -51,8 +51,8 @@ Every student, in every home and classroom, has a tailored learning path powered
                 <TrophyOutlined className="text-4xl text-[#1890ff] mb-4" />
                 <Title level={4}>Excellence</Title>
                 <Text className="text-gray-600">
-                  We strive for excellence in every feature we develop, ensuring our platform
-                  meets the highest standards of quality and reliability.
+                  We strive to deliver excellence in every feature we develop, ensuring our platform
+                  reliability.
                 </Text>
               </Card>
             </Col>

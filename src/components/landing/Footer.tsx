@@ -23,8 +23,7 @@ export const Footer = () => {
           <Col xs={24} sm={24} md={8}>
             <Title level={4} className="text-[#1890ff] mb-6">Schoolforce</Title>
             <Text className="text-gray-600">
-              Transforming education through AI-powered analytics, automated reporting, and comprehensive exam management. We make school administration smarter and more efficient.
-            </Text>
+To democratize global education by creating the world’s first AI-powered ecosystem where every student, parent, and educator—regardless of location or resources—collaborates in real time to unlock lifelong potential, eliminate systemic inequities.            </Text>
           </Col>
           
           <Col xs={24} sm={12} md={8}>
