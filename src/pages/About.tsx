@@ -30,8 +30,13 @@ const About = () => {
               <Title level={3}>Our Vision</Title>
               <Paragraph className="text-gray-600">
        
-Every student, in every home and classroom, has a tailored learning path powered by AI that adapts to their strengths, gaps, and interests—while preserving the irreplaceable human connection between teachers and learners.
-              </Paragraph>
+
+Learning doesn’t stop at graduation. schoolforce evolves into a lifelong platform where,<br/>
+<br/>
+- Students track skill development from kindergarten to career.<br/>
+- Adults access micro-courses to re-skill for a changing job market.<br/>
+- Employers partner with schools to align curricula with real-world needs.<br/>
+- AI mentors guide users through career shifts, college applications, or passion projects.              </Paragraph>
             </Col>
           </Row>
 
