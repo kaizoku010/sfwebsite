@@ -18,7 +18,7 @@ const plans = [
       "Automated reports",
       "Email support",
       "Basic dashboard",
-      "stuff training",
+      "Admin training",
       "Basic security",
     ],
   },
