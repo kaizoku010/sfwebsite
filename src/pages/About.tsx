@@ -29,8 +29,6 @@ const About = () => {
             <Col xs={24} md={12}>
               <Title level={3}>Vision</Title>
               <Paragraph className="text-gray-600">
-       
-
 Learning doesn’t stop at graduation. schoolforce evolves into a lifelong platform where,<br/>
 <br/>
 - Students track skill development from kindergarten to career.<br/>
