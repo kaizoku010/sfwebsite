@@ -18,6 +18,8 @@ const plans = [
       "Automated reports",
       "Email support",
       "Basic dashboard",
+      "stuff training",
+      "Basic security",
     ],
   },
  
@@ -33,6 +35,11 @@ const plans = [
       "Custom features",
       "Dedicated manager",
       "On-premise option",
+      "stuff training",
+      "student training",
+      "parent training",
+            "Advanced security",
+      "shoolforce work shops for soft digital skills",
     ],
   },
 ];

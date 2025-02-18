@@ -6,7 +6,7 @@ const features = [
   {
     icon: Brain,
     title: "AI-Powered Insights",
-    description: "Predictive analytics for student performance and institutional growth",
+    description: "Real-time analytics for student performance and institutional growth",
   },
   {
     icon: FileText,
