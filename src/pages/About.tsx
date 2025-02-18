@@ -31,12 +31,6 @@ const About = () => {
               <Paragraph className="text-gray-600">
        
 Every student, in every home and classroom, has a tailored learning path powered by AI that adapts to their strengths, gaps, and interests—while preserving the irreplaceable human connection between teachers and learners.
-
-How Schoolforce Gets You There:
-
-    AI analyzes student data to recommend resources, predict challenges, and automate administrative tasks (grading, attendance).
-
-    Offline-friendly tools and low-bandwidth solutions ensure rural or under-resourced communities aren’t left behind.
               </Paragraph>
             </Col>
           </Row>
