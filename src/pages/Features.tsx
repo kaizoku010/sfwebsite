@@ -65,8 +65,7 @@ const Features = () => {
         <div className="text-center mb-16" style={{marginTop:"5rem"}}>
           <Title className="text-[#1890ff] mb-4">Our Features</Title>
           <Text className="text-lg text-gray-600 block max-w-3xl mx-auto">
-            Discover how Schoolforce feature set can transform your educational institution
-            with AI-powered insights and automated management tools.
+            Discover how schoolforce feature set can transform your educational institution.
           </Text>
         </div>
 
