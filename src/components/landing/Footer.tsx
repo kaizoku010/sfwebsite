@@ -8,13 +8,13 @@ const { Title, Text } = Typography;
 
 export const Footer = () => {
  
-  const menuItems = [
-    { key: '/', label: 'Home' },
-    { key: '/features', label: 'Features' },
-    { key: '/pricing', label: 'Pricing' },
-    { key: '/about', label: 'About' },
-    { key: '/contact', label: 'Contact' },
-  ];
+  // const menuItems = [
+  //   { key: '/', label: 'Home' },
+  //   { key: '/features', label: 'Features' },
+  //   { key: '/pricing', label: 'Pricing' },
+  //   { key: '/about', label: 'About' },
+  //   { key: '/contact', label: 'Contact' },
+  // ];
 
   return (
     <AntFooter className="bg-[#f0f2f5] pt-16 pb-8">
