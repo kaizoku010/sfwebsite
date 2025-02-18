@@ -3,6 +3,11 @@ import { BookOpen, Brain, ChartBar, Users, FileText, Bell } from "lucide-react";
 import { Card } from "antd";
 
 const features = [
+    {
+    icon: BookOpen,
+    title: "Virtual Exams",
+    description: "Virtual exams: redefining assessment with integrity, security, and insight",
+  },
   {
     icon: Brain,
     title: "AI-Powered Insights",
@@ -28,11 +33,7 @@ const features = [
     title: "Automated Reporting",
     description: "Instant performance updates and notifications for parents",
   },
-  {
-    icon: BookOpen,
-    title: "Resource Management",
-    description: "Efficient allocation and tracking of educational resources",
-  },
+
 ];
 
 export const FeaturesSection = () => {
