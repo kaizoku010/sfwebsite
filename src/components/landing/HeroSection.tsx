@@ -9,7 +9,7 @@ export const HeroSection = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
-    <section  className="vid_bg section-padding min-h-[90vh] flex flex-col justify-center items-center text-center relative overflow-hidden">
+    <section style={{justifyContent:"center"}} className="vid_bg section-padding min-h-[90vh] flex flex-col items-center text-left relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-[#e6f7ff] to-transparent -z-10" />
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(24,144,255,0.15),transparent)] -z-10" />
       
@@ -20,14 +20,14 @@ export const HeroSection = () => {
         </div>
         
         <h1 style={{color:"white"}} className=" greet text-4xl md:text-6xl font-bold mb-6 heading-gradient">
-          Welcome to<br/> <span className="greet-span"> Schoolforce</span>
+          Welcome to<br/> <span className="greet-span"> schoolforce</span>
         </h1>
         
-        <p className="text-lg md:text-xl text-white mb-12 max-w-2xl mx-auto">
+        <p style={{fontSize:"1.1rem"}} className="text-lg md:text-xl text-white mb-12 max-w-2xl mx-auto">
 Imagine a world where every parent, teacher, and school leader has the tools to unlock the full potential of education.
 At Schoolforce, we’re turning this vision into reality by putting critical educational data and AI-powered insights directly into your hands.      </p>
         
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+        <div className="flex flex-col sm:flex-row gap-4  items-left">
           <Link to={"/features"}>
           <Button type="primary" size="large" className="px-8 h-12 flex items-center">
             Get Started
