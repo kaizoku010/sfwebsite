@@ -21,7 +21,7 @@ export const Footer = () => {
       <div className="max-w-7xl mx-auto px-4">
         <Row gutter={[32, 32]}>
           <Col xs={24} sm={24} md={8}>
-            <Title level={4} className="text-[#1890ff] mb-6">Schoolforce</Title>
+            <Title level={4} className="text-[#1890ff] mb-6">schoolforce</Title>
             <Text className="text-gray-600">
 To democratize global education by creating the world’s first AI-powered ecosystem where every student, parent, and educator—regardless of location or resources—collaborates in real time to unlock lifelong potential, eliminate systemic inequities.            </Text>
           </Col>
