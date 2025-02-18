@@ -20,8 +20,6 @@ const Contact = () => {
 
         <Row justify="center" style={{ padding: "2rem 1rem" }}>
           <Col xs={24} md={12} lg={8}>
-            <Title level={3} className="text-center mb-8">Get in Touch</Title>
-
             <div className="space-y-8">
               <Card className="bg-[#f8f9fa]">
                 <div className="flex items-start gap-4">
